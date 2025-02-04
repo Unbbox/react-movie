@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/movie/:id" element={<Detail />} />
-        <Route path="/react-movie" element={<Home />} />
+        <Route path="/react-movie/" element={<Home />} />
       </Routes>
     </Router>
   );

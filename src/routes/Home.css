@@ -1,0 +1,39 @@
+.home_title {
+  color: white;
+  margin-left: 20px;
+  margin-top: -50px;
+  font-size: 50px;
+}
+
+.movies {
+  display: grid;
+}
+
+@media (max-width: 599px) {
+  .movies {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 899px) and (max-width: 1299px) {
+  .movies {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1699px) {
+  .movies {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 1700px) {
+  .movies {
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+}
+
+.movie__img {
+  width: 400px;
+  height: 225px;
+}

@@ -1,0 +1,16 @@
+.movie__info {
+  background-color: #333;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  margin: 20px;
+}
+
+.movie__info:hover {
+  transform: scale(1.2);
+}
+
+.movie__info__text {
+  text-decoration: none;
+  color: white;
+}

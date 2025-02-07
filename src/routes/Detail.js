@@ -35,7 +35,7 @@ function Detail() {
         <div className="wrapper">
           <div>
             <img src={movie.poster_path} alt="" className="detail__img" />
-            <Link to="/">
+            <Link to={`${process.env.PUBLIC_URL}/`}>
               <button className="btn-close" style={{ backgroundColor: "#222", padding: "10px 15px" }}>
                 ❌
               </button>
